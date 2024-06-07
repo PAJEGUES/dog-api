@@ -34,7 +34,7 @@ Professor: Conrado Saud
 
 2. Uma vez logado no GitHub você deve ir em: **Novo** no canto superior direito.
 
-3. 
+3. Preencha os detalhes do seu novo repositório de acordo com sua necessidade.
 
 4. Clique em **Criar Repositório** para finalizar a criação do repositório.
 
