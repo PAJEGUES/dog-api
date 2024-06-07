@@ -1,0 +1,31 @@
+#dog .layout-central {
+    display: flex;
+    justify-content: space-between;
+}
+
+#dog img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+#dog .layout-menu {
+    background-color: red;
+}
+
+
+#dog .layout-menu ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#dog .layout-menu li{
+    color: white;
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+
+#dog .layout-menu li:hover {
+    cursor: pointer;
+    background-color: rgb(197, 67, 67);
+}
