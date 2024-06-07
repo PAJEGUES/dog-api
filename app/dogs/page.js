@@ -31,7 +31,6 @@ export default function Dogs(){
         })
     }
 
-
     useEffect(()=>{
         buscarImagensAleatorias();
         buscarRacas();   
@@ -52,7 +51,7 @@ export default function Dogs(){
 
                 <div >
                     <h2>Pitbull</h2>
-                    {imagens.map((x) => <img src={x} />)} 
+                    {imagens.map((x, index) => <img src={x} key={index} alt={`Imagem ${index}`} />)} 
                 </div>
 
             </div>
