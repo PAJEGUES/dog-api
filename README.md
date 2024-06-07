@@ -42,6 +42,7 @@ Professor: Conrado Saud
 
 6. Agora você deve realizar alterações no seu projeto. Inicialmente, você deve acessar o arquivo **next.config.js** e seu arquivo deverá ficar da seguinte forma:
 
+```js
     /** @type {import('next').NextConfig} */
     const nextConfig = {
         output: 'export',
@@ -51,6 +52,7 @@ Professor: Conrado Saud
     };
 
     export default nextConfig;
+```
 
 7. Uma vez que o arquivo foi atualizado e alterado você deve abrir o **Terminal** e rodar o seguinte comando: **npx next build**, isso irá gerar os arquivos estáticos que serão enviados para o **GitHub Pages** posteriormente.
 
